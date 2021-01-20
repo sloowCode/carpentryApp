@@ -1,0 +1,343 @@
+.navs{
+	background-color:rgb(255, 255, 255);
+	height: 110px;
+}
+.navbar-brand img{
+margin: 0rem;
+}
+.nav.navbar-nav>li>a{
+	color:rgb(187, 87, 15);
+	margin-top: 3rem;
+	font-weight: 800;
+}
+.nav.navbar-nav>li>a:hover {
+	color: rgb(248, 247, 182);
+}
+.carousel{
+	margin-top:-2rem;
+}
+.carousel .cap h3{
+	
+	font-size: 65px;
+	font-weight: 800;
+    color:  rgb(255, 191, 30);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.carousel .cap {
+	margin-bottom: 15rem;
+	
+}
+.carousel .cap p{
+	font-size: xx-large;
+    color:white;
+    font-style:italic ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	
+}
+.carousel .cappy{
+	text-align: start;
+	/* margin-top: 10rem; */
+}
+.carousel button{
+    width: 120px;
+    height: 50px;
+    background-color: rgb(230, 167, 7);
+    color: white;
+    border-width: 0ch;
+    margin-top: 2rem;
+    border-color: black;
+    font-weight: 600;
+}
+.carousel .item img{
+    width: 100%;
+	height:600px;
+	background-position: right;
+	background-size: cover;
+}
+.container .callus{
+	height: 600px;
+	background-color:rgb(37, 34, 34);
+	margin-top: -1rem;
+}
+.callus .card-header{
+	background-image: url(/img/carp.png);
+	background-size: cover;
+	height: 250px;
+	
+}
+
+ .callus .card-header h2 {
+	padding-top: 7rem;
+	color: white;
+	text-align: center;
+}
+.container .callus h1 {
+	font-weight: 900;
+	font-size: 70px;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+	color: rgb(245, 139, 0);
+	text-align: center;
+	margin-top: 0rem;
+}
+.container .callus .card-text{
+	font-size: x-large;
+	color: rgb(247, 243, 243);
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 3rem;
+	font-style: italic;
+}
+
+.callus button{
+	width: 130px;
+	height: 30px;
+	border-radius: 5rem;
+	border-width: -0ch;
+	margin-left: 1rem;
+	font-weight: 400;
+	
+}
+.callus .contact{
+	
+	background-color: white;
+	color:black;
+}
+.callus .gallery{
+	background-color:rgb(245, 139, 0);
+	color: white;
+}
+.container .main-div{
+	margin-top: 10rem;
+}
+.container hr{
+	border-width: 0.5ch;
+}
+.container .main-div .history-heading{
+	font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-weight: 600;
+}
+.container .history p{
+	font-size: medium;
+	font-weight: 400;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: dimgray;	
+}
+.container .list span{
+	color: sienna;
+}
+.container .list-img{
+	margin-top: 2rem;
+}
+.container .list {
+	margin-top: 2rem;
+	margin-left: -4rem;
+}
+.container .list li{
+	list-style: none;
+	line-height: 3rem;
+	font-size: medium;
+	font-weight: 400;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: dimgray;
+}
+.app-content .services{
+	 
+	max-height: max-content;
+	min-height: min-content;
+	margin-top: 8rem;
+	background-repeat:no-repeat;
+	background-size:cover; 
+	background-image: url(/img/carpy.png);
+}
+.services .services-content{
+	margin-bottom: 10.0rem;
+	padding: 1rem;
+}
+.services img{
+	height: 120px;
+	width: 120px;
+	margin-top: 3rem;
+	margin-left: 5rem;
+}
+.services .card{
+	
+	height: 300px;
+	width: 250px;
+	background-color:rgb(255, 255, 249);
+	margin-left:3rem;
+	
+}
+.services h3{
+	margin: 2rem;
+	color: white;
+	font-weight: bolder;
+	font-size: xx-large;
+	
+}
+.services .card-text h4{
+	text-align: center;
+	margin-top: 2rem;
+	font-weight: 600;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.services .card-text p{
+	color: slategray;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: 400;
+	font-size: medium;
+	text-align: center;
+}
+.services .container{
+	margin-top: 10rem;
+}
+
+.app-content .works{
+	height: 300px;
+	background-color:rgb(37, 34, 34) ;
+}
+.app-content .works h3{
+	 margin-left: 2rem;
+	color: white;
+	font-weight: bolder;
+	font-size: xx-large;
+	 
+}
+.app-content .works button{
+   background-color:rgb(245, 139, 0);
+   float: right;
+   border-width: 0ch;
+   font-size: small;
+   font-weight: 600;
+   height: 50px;
+   color: white;
+}
+.app-content .works .container{
+    margin-top: 8rem;
+}
+
+.works .gallery-content{
+	width:max-content;
+}
+.works .gallery-butts{
+	float: left;
+}
+.works .gallery-butts .filter-button{
+    font-size: 18px;
+    border: 2px solid rgb(245, 139, 0);
+	padding:5px 10px;
+    text-align: center;
+    color: white;
+	margin-bottom: 30px;
+	margin-left: 1rem;
+	background:transparent;
+}
+.works .gallery-butts .filter-button:hover,
+.works .gallery-butts .filter-button:focus,
+.works .gallery-butts .filter-button.active{
+    color: #ffffff;
+    background-color:rgb(245, 139, 0);
+	outline:none;
+}
+
+.gallery_product{
+	padding:0;
+	 position:relative; 
+}
+.gallery_product img{
+	height: 300px;
+	width: 420px;
+}
+.gallery_product .img-info{
+	position: absolute;
+    background: rgba(0,0,0,0.5);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+	overflow:hidden;
+	color:#fff;
+	top:0;
+	display:none;
+	   -webkit-transition: 2s;
+    transition: 2s;
+}
+
+.gallery_product:hover .img-info{
+	display:block;
+   -webkit-transition: 2s;
+    transition: 2s;
+}
+.About {
+	margin-top: 6rem;
+	
+}
+.About hr{
+	border-color: darkgoldenrod;
+}
+.About h2{
+	margin-bottom: -2rem;
+	margin-top: 3rem;
+	font-weight: 700;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.About .panel-group{
+	height: 400px;
+}
+.About .panel-heading{
+	height: 70px;
+	background-color: rgb(37, 34, 34);
+}
+.About .panel-heading h4{
+	
+	color: goldenrod;
+	font-weight: 600;
+	font-size: x-large;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	/* padding:1rem ; */
+}
+.About .panel-heading .glyphicon{
+
+	height: 70px;
+    width: 70px;
+	left: -16px;
+	top: -10px;
+	font-size: xx-large;
+	font-weight:200;
+	color:white;
+	padding-bottom: 1rem;
+	 background-color: goldenrod; 
+	 border-width: 0ch;
+}
+.About .glyphicon:hover{
+	
+	color:black;
+}
+.About .panel-heading{
+	margin-bottom: 0px;
+}
+.About .panel-heading a{
+	text-decoration: none;
+}
+.About .pan3{
+	margin-top: -6px;
+}
+.About .panel-heading a:hover{
+	color: white;
+	/* sbackground-color: goldenrod; */
+}
+.About img{
+	float: right;
+	width: 50vh;
+	margin-top:3rem;
+}
+.About .panel-group{
+	margin-top: 6rem;
+	border-width: 10px;
+}
+.footer{
+	background-color: darkgoldenrod;
+	color: white;
+	margin-top: 2rem;
+	padding: 1.5rem;
+}
