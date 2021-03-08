@@ -2,31 +2,59 @@
 	background-color:rgb(255, 255, 255);
 	height: 110px;
 }
-.navbar-brand img{
-margin: 0rem;
+ .navbar-brand { position: relative; z-index: 2; } 
+ .nav .navbar-nav { position: relative; z-index: 2; left:3;} 
+
+/* .navbar-nav.navbar-right .btn { position: relative; z-index: 2; padding: 4px 20px; margin: 10px auto; transition: transform 0.3s; } */
+
+/* .navbar .navbar-collapse { position: relative; overflow: hidden !important; }
+.navbar .navbar-collapse .navbar-right > li:last-child { padding-left: 22px; }
+
+.navbar .nav-collapse { position: absolute; z-index: 1; top: 0; left: 0; right: 0; bottom: 0; margin: 0; padding-right: 120px; padding-left: 80px;  width: 100%; }
+.navbar.navbar-default .nav-collapse { background-color: #f8f8f8; }
+.navbar.navbar-inverse .nav-collapse { background-color: #222; }
+.navbar .nav-collapse .navbar-form { border-width: 0; box-shadow: none; }
+.nav-collapse>li { float: right; } */ 
+
+
+
+.navbar-brand > img {
+	/* display: block; */
+	margin-top:-2rem;
+	
 }
 .nav.navbar-nav>li>a{
-	color:rgb(187, 87, 15);
+	color:navy;
 	margin-top: 3rem;
 	font-weight: 800;
 }
 .nav.navbar-nav>li>a:hover {
-	color: rgb(248, 247, 182);
+	color:gold;
+	background-color:navy;
 }
 .carousel{
 	margin-top:-2rem;
 }
 .carousel .cap h3{
 	
-	font-size: 65px;
+	font-size: 5em; 
 	font-weight: 800;
-    color:  rgb(255, 191, 30);
+    color: gold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.carousel .cap {
-	margin-bottom: 15rem;
-	
+.carousel .cap b{
+	font-size:90px;
+	font-family:fantasy;
 }
+.carousel .cap {
+	margin-bottom: 10rem;
+	/* font-size:2vh; */
+	/* max-width:fit-content;
+	max-height: fit-content; */
+
+	/* display: block; */		
+}
+
 .carousel .cap p{
 	font-size: xx-large;
     color:white;
@@ -35,14 +63,15 @@ margin: 0rem;
 	
 }
 .carousel .cappy{
-	text-align: start;
-	/* margin-top: 10rem; */
+	display:block;
+	text-align:start;
+	 
 }
 .carousel button{
     width: 120px;
     height: 50px;
-    background-color: rgb(230, 167, 7);
-    color: white;
+    background-color: rgb(18, 12, 54);
+    color: gold;
     border-width: 0ch;
     margin-top: 2rem;
     border-color: black;
@@ -54,9 +83,11 @@ margin: 0rem;
 	background-position: right;
 	background-size: cover;
 }
+
+ /* SUMMARY */
 .container .callus{
 	height: 600px;
-	background-color:rgb(37, 34, 34);
+	background-color:rgb(18, 12, 54);
 	margin-top: -1rem;
 }
 .callus .card-header{
@@ -75,7 +106,7 @@ margin: 0rem;
 	font-weight: 900;
 	font-size: 70px;
 	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
-	color: rgb(245, 139, 0);
+	color: orange;
 	text-align: center;
 	margin-top: 0rem;
 }
@@ -101,10 +132,10 @@ margin: 0rem;
 .callus .contact{
 	
 	background-color: white;
-	color:black;
+	color:rgb(30, 20, 87);
 }
 .callus .gallery{
-	background-color:rgb(245, 139, 0);
+	background-color:orange;
 	color: white;
 }
 .container .main-div{
@@ -112,10 +143,15 @@ margin: 0rem;
 }
 .container hr{
 	border-width: 0.5ch;
+	border-color: orange;
 }
 .container .main-div .history-heading{
 	font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-weight: 600;
+	color:navy;
+}
+.main-div img{
+  margin-top:-2rem;
 }
 .container .history p{
 	font-size: medium;
@@ -124,7 +160,7 @@ margin: 0rem;
 	color: dimgray;	
 }
 .container .list span{
-	color: sienna;
+	color: orange;
 }
 .container .list-img{
 	margin-top: 2rem;
@@ -141,6 +177,9 @@ margin: 0rem;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	color: dimgray;
 }
+
+
+/* SERVICES */
 .app-content .services{
 	 
 	max-height: max-content;
@@ -148,7 +187,7 @@ margin: 0rem;
 	margin-top: 8rem;
 	background-repeat:no-repeat;
 	background-size:cover; 
-	background-image: url(/img/carpy.png);
+	background-image: url(/img/edited.png);
 }
 .services .services-content{
 	margin-bottom: 10.0rem;
@@ -186,10 +225,11 @@ margin: 0rem;
 	text-align: center;
 	margin-top: 2rem;
 	font-weight: 600;
+	color: orange;
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .services .card-text p{
-	color: slategray;
+	color: navy;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	font-weight: 400;
 	font-size: medium;
@@ -198,20 +238,20 @@ margin: 0rem;
 .services .container{
 	margin-top: 10rem;
 }
-
+ /* PROJECTS */
 .app-content .works{
 	height: 300px;
-	background-color:rgb(37, 34, 34) ;
+	background-color:rgb(10, 10, 49);
 }
 .app-content .works h3{
-	 margin-left: 2rem;
+	 margin-left: 0rem;
 	color: white;
 	font-weight: bolder;
 	font-size: xx-large;
 	 
 }
 .app-content .works button{
-   background-color:rgb(245, 139, 0);
+   background-color:orange;
    float: right;
    border-width: 0ch;
    font-size: small;
@@ -232,19 +272,19 @@ margin: 0rem;
 }
 .works .gallery-butts .filter-button{
     font-size: 18px;
-    border: 2px solid rgb(245, 139, 0);
+    border: 2px solid orange;
 	padding:5px 10px;
     text-align: center;
     color: white;
 	margin-bottom: 30px;
-	margin-left: 1rem;
+	margin-left: 0.5rem;
 	background:transparent;
 }
 .works .gallery-butts .filter-button:hover,
 .works .gallery-butts .filter-button:focus,
 .works .gallery-butts .filter-button.active{
     color: #ffffff;
-    background-color:rgb(245, 139, 0);
+    background-color:orange;
 	outline:none;
 }
 
@@ -276,6 +316,15 @@ margin: 0rem;
    -webkit-transition: 2s;
     transition: 2s;
 }
+.gallery_product:hover h4{
+	color: orange;
+	font-weight:600;
+	font-size:x-large;
+}
+
+
+/* ABOUT */
+
 .About {
 	margin-top: 6rem;
 	
@@ -288,13 +337,14 @@ margin: 0rem;
 	margin-top: 3rem;
 	font-weight: 700;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: rgb(18, 12, 54);
 }
 .About .panel-group{
 	height: 400px;
 }
 .About .panel-heading{
 	height: 70px;
-	background-color: rgb(37, 34, 34);
+	background-color: rgb(18, 12, 54);
 }
 .About .panel-heading h4{
 	
@@ -314,12 +364,12 @@ margin: 0rem;
 	font-weight:200;
 	color:white;
 	padding-bottom: 1rem;
-	 background-color: goldenrod; 
+	 background-color:orange; 
 	 border-width: 0ch;
 }
 .About .glyphicon:hover{
 	
-	color:black;
+	color:rgb(18, 12, 54);
 }
 .About .panel-heading{
 	margin-bottom: 0px;
@@ -344,6 +394,7 @@ margin: 0rem;
 	border-width: 10px;
 }
 
+/* COUNTER ANIMATION */
 .counter
 {
     background-color: rgb(209, 193, 151);
@@ -362,7 +413,7 @@ margin: 0rem;
 .counter .glyphicon
 {
     font-size: 48px;
-    background-color: goldenrod;
+    background-color: orange;
     border-radius: 50%;
     position: relative;
     color: #ffffff;
@@ -385,11 +436,12 @@ margin: 0rem;
 .employee-p,.customer-p,.order-p,.design-p
 {
     font-size: 24px;
-    color: goldenrod;
+    color: orange;
     line-height: 34px;
 }
 
-/* @import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css); */
+
+/* PRODUCT SECTION */
 
 .shop{
 	margin-top: 10rem;
@@ -398,6 +450,7 @@ margin: 0rem;
 .shop h3{
 	font-size: xx-large;
 	font-weight: 700;
+	color: navy;
 }
 .col-item
 {
@@ -427,18 +480,21 @@ margin: 0rem;
 {
     /*width: 50%;*/
     float: left;
-    margin-top: 5px;
+	margin-top: 5px;
+	
 }
 
 .col-item .price h5
 {
     line-height: 20px;
-    margin: 0;
+	margin: 0;
+	
 }
 
 .price-text-color
 {
-    color: goldenrod;
+	color: orange;
+	
 }
 
 .col-item .info .rating
@@ -499,116 +555,160 @@ margin: 0rem;
 .controls
 {
 	margin-top: 20px;
-	color:goldenrod;
+	color:orange;
 }
 [data-slide="prev"]
 {
     margin-right: 10px;
 }
 
+
+/* CONTACT SECTION */
+
 .Contact .row{
+	height:500px;
+	
+	
 	 /* display:flex;
 	justify-content: center;  */
-	padding: 5rem;
-	/* margin-left: 22rem; */
+	/* padding: 5rem; */
+	 /* margin-left: 17rem;  */
 }
-.stage p{
-	text-align: center;
-	font-size: xx-large;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	color:white;
-	font-weight:300;
-	margin-top:1rem;
+.Contact .row img{
+	 height:500px;
+	  width: max-content; 
+	 opacity: 0.3;
+	 background:black;
+	 margin-right: -2rem;  
 }
+.Contact .social-media{
+	display: flex;
+	justify-content: center;
+}
+.Contact .social-media a{
+	font-size:60px;
+	padding: 1rem;
+	color: white;
+}
+.Contact .social-media a:hover {
+	
+	color: rgb(19, 9, 53);
+}
+
 .Contact{
 
-	height: 600px;
-	/* background-color: #25274d; */
-	/* background-image: url(/img/matt5.jpg);
-	background-position:left;
-	background-size: cover;
-	background-repeat: no-repeat;
-	opacity: 0.3; */
-	margin-bottom: 10rem;
+	height: 500px;
+	width:;
+	 background-color:  rgb(18, 12, 54);  
+	margin-bottom: -0rem;
+	
 	/* box-shadow: -0.5rem 0 1rem rgb(190, 192, 192); */
 }
-.Contact .order{
-	text-align: center;
-	color: rgb(207, 205, 205);
-	font-size: xx-large;
-	font-weight: 600;
-	padding-top: 3rem;
-}
+ 
 .text-div{
 	background: #ff9b00;
 	border-top-left-radius: 0.5rem;
 	border-bottom-left-radius: 0.5rem;
 	height:500px;
-	width:350px;
-	box-shadow: -0.0rem 0 1.5rem rgb(190, 192, 192);
+	/* max-height: fit-content;
+	min-height:fit-content ; */
+	/* width:fit-content; */
+	/* margin-left: -2rem; */
+	/* box-shadow: -0.0rem 0 1.5rem rgb(190, 192, 192); */
 }
 .contact-info{
 	padding-top:9rem;
 	text-align: center;
 }
+.contact-form{
+	margin-left:1rem;	
+}
 
 .contact-info h2{
 	margin-bottom: 10%;
 	font-weight: 600;
+	color: rgb(18, 12, 54);
 }
 .contact-info .glyphicon{
 	color:white;
 	font-size: 70px;
 }
 .main-form{
-	background: #fff;
-	border-top-right-radius: 0.5rem;
-	border-bottom-right-radius: 0.5rem;
+	background: rgb(18, 12, 54);
+	border-top-right-radius: 0.0rem;
+	border-bottom-right-radius: 0.0rem;
 	height: 500px;
-	width: 550px;
-	max-height: auto;
-	min-height: fit-content;
-	box-shadow: -0.0rem 0 1.5rem rgb(191, 192, 192);
+	/* width:fit-content; */
+	/* max-height: fit-content;
+	min-height: fit-content; */
+	/* box-shadow: -0.0rem 0 1.5rem rgb(191, 192, 192); */
 }
 .main-form h3{
 	font-size: xx-large;
+	color: #ff9b00;
 	font-weight: 600;
 	text-align: center;
 	padding-top: 2rem;
-	padding-left: 8rem;
+	/* padding-left: 8rem; */
 }
 .form-group .form-control{
 	width: 350px;
 	margin-bottom: 1rem;
+	/* margin-left: 6.5rem; */
+	
 }
 .form-group input{
-	height: 55px;
+	height: 60px;
 }
-.contact-form{
-	margin-top: 0rem;
-}
+
 .contact-form .form-group{
-	padding: 1.5rem;
+	padding: 0rem;
 }
-.contact-form label{
+/* .contact-form label{
 	font-weight:600;
-}
+	color: rgb(216, 212, 212);
+} */
 .contact-form button{
-	background: #25274d;
+	background: #ff9b00;
 	color: #fff;
 	font-weight: 600;
-	width: 25%;
+	width: 50%;
 }
 .contact-form button:focus{
 	box-shadow:none;
 }
 
+
+/* Call Phone Animation */
+
+.call{
+	/* background-image: url(/img/plain.jpg); */
+	height:300px;
+}
+.call .stage{
+padding-top: 2rem;
+}
+.Order{
+	text-align: center;
+	color: navy;
+	font-size: xx-large;
+	font-weight: 600;
+	padding-top: 1rem;
+}
+.stage p{
+	text-align: center;
+	font-size: xx-large;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: navy;
+	font-weight:300;
+	margin-top:1rem;
+}
 .stage .glyphicon {
 	font-size: 80px;
 	color: #ff9b00;
 	display:flex;
 	justify-content: center;
-	margin-top: -4rem;
+	margin-top: 0rem;
 	 animation-duration: 2s;
 	animation-iteration-count: infinite;
 	/* background-color: #F44336; */
@@ -632,16 +732,37 @@ section {
     padding-bottom: 100px;
 }
 
-.quote {
+/* TESTIMONIALS */
+
+#carousel h3{
+	color:white;
+	margin-bottom:3rem;
+	font-weight:600;
+	font-size:xx-large;
+	
+}
+/* .quote {
     color: rgba(0,0,0,.1);
     text-align: center;
     margin-bottom: 30px;
-}
+} */
 
 /*-------------------------------*/
 /*    Carousel Fade Transition   */
 /*-------------------------------*/
 
+#carousel{
+	
+		background-color:rgb(18, 12, 54);
+		margin-bottom:3rem;
+		margin-top:10rem;
+	}
+#carousel .quote{
+	color:orange;
+	margin-top:2rem;
+	padding-bottom:5rem;
+	text-align:center;
+}
 #fade-quote-carousel.carousel {
   padding-bottom: 60px;
 }
@@ -652,7 +773,7 @@ section {
           transition-property: opacity;
 }
 #fade-quote-carousel.carousel .carousel-inner .active {
-  opacity: 1;
+  opacity:1;
   -webkit-transition-property: opacity;
       -ms-transition-property: opacity;
           transition-property: opacity;
@@ -661,21 +782,38 @@ section {
   bottom: 10px;
 }
 #fade-quote-carousel.carousel .carousel-indicators > li {
-  background-color: #e84a64;
+  background-color:orange;
   border: none;
 }
 #fade-quote-carousel blockquote {
-    text-align: center;
-    border: none;
+	text-align: center;
+	font-style:italic;
+	font-size:30px;
+	border: none;
+	color: rgb(223, 245, 252);
 }
-#fade-quote-carousel .profile-circle {
+#fade-quote-carousel .item img {
     width: 100px;
     height: 100px;
     margin: 0 auto;
     border-radius: 100px;
 }
+#carousel .item h5{
+	text-align:center;
+	color: lightblue;
+	font-weight:500;
+	font-size:x-large;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#carousel .item .location {
+	text-align:center;
+	color:orange;
+	font-size:15px;
+	font-weight:500;
+}
+
 .footer{
-	background-color: darkgoldenrod;
+	background-color:orange;
 	color: white;
 	margin-top: 2rem;
 	padding: 1.5rem;
