@@ -1,9 +1,16 @@
 .navs{
 	background-color:rgb(255, 255, 255);
 	height: 110px;
+    
 }
- .navbar-brand { position: relative; z-index: 2; } 
- .nav .navbar-nav { position: relative; z-index: 2; left:3;} 
+
+
+ .navbar-brand { 
+	 position: relative; z-index: 2;
+	 /* display: inline-block; */
+   
+} 
+ .nav .navbar-nav { position: relative; z-index: 2; left:3; } 
 
 /* .navbar-nav.navbar-right .btn { position: relative; z-index: 2; padding: 4px 20px; margin: 10px auto; transition: transform 0.3s; } */
 
@@ -47,12 +54,15 @@
 	font-family:fantasy;
 }
 .carousel .cap {
-	margin-bottom: 10rem;
-	/* font-size:2vh; */
-	/* max-width:fit-content;
-	max-height: fit-content; */
-
-	/* display: block; */		
+	padding-bottom: 10rem; 
+	padding-top:10rem;
+	 left:15%;
+	right:15%; 
+			
+}
+.carousel .cap i{
+	/* color:navy; */
+			
 }
 
 .carousel .cap p{
