@@ -1,6 +1,7 @@
 .navs{
 	background-color:rgb(255, 255, 255);
-	height: 110px;
+	min-height:120px;
+	max-height: fit-content;
     
 }
 
@@ -10,30 +11,21 @@
 	 /* display: inline-block; */
    
 } 
- .nav .navbar-nav { position: relative; z-index: 2; left:3; } 
-
-/* .navbar-nav.navbar-right .btn { position: relative; z-index: 2; padding: 4px 20px; margin: 10px auto; transition: transform 0.3s; } */
-
-/* .navbar .navbar-collapse { position: relative; overflow: hidden !important; }
-.navbar .navbar-collapse .navbar-right > li:last-child { padding-left: 22px; }
-
-.navbar .nav-collapse { position: absolute; z-index: 1; top: 0; left: 0; right: 0; bottom: 0; margin: 0; padding-right: 120px; padding-left: 80px;  width: 100%; }
-.navbar.navbar-default .nav-collapse { background-color: #f8f8f8; }
-.navbar.navbar-inverse .nav-collapse { background-color: #222; }
-.navbar .nav-collapse .navbar-form { border-width: 0; box-shadow: none; }
-.nav-collapse>li { float: right; } */ 
-
-
+ 
 
 .navbar-brand > img {
-	/* display: block; */
-	margin-top:-2rem;
-	
+	margin-top:-1rem;	
+	margin-left:9rem;
+}
+.navbar-inner{
+	max-height:fit-content;
 }
 .nav.navbar-nav>li>a{
 	color:navy;
 	margin-top: 3rem;
 	font-weight: 800;
+	position: relative; z-index: 2;
+	
 }
 .nav.navbar-nav>li>a:hover {
 	color:gold;
@@ -278,7 +270,8 @@
 }
 
 .works .gallery-butts{
-	float: left;
+	/* float: left; */
+	max-width: fit-content;
 }
 .works .gallery-butts .filter-button{
     font-size: 18px;
@@ -821,7 +814,42 @@ section {
 	font-size:15px;
 	font-weight:500;
 }
-
+.scroll-top-wrapper {
+    position: fixed;
+    opacity: 0;
+    visibility: hidden;
+	overflow: hidden;
+	text-align: center;
+	z-index: 99999999;
+    background-color: #777777;
+	color: orange;
+	width: 50px;
+	height: 48px;
+	line-height: 48px;
+	right: 30px;
+	bottom: 30px;
+	padding-top: 2px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.scroll-top-wrapper:hover {
+	background-color:rgb(10, 10, 49);
+}
+.scroll-top-wrapper.show {
+    visibility:visible;
+    cursor:pointer;
+	opacity: 1.0;
+}
+.scroll-top-wrapper i.fa {
+	line-height: inherit;
+}
 .footer{
 	background-color:orange;
 	color: white;
