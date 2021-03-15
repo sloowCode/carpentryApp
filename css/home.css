@@ -396,6 +396,11 @@
 	margin-top: 6rem;
 	border-width: 10px;
 }
+.About .collapse .panel-body{
+	font-weight: 500;
+	color: #6b6a6a;
+	font-size: larger;
+}
 
 /* COUNTER ANIMATION */
 .counter
