@@ -1,4 +1,4 @@
-## Welcome to JEHOVAH IS OUR REFUGE WOODWORKS
+## Welcome to JEHOVAH IS OUR REFUGE WOODWORKS & CARPENTRY
 
 You can use the [editor on GitHub](https://github.com/sloowCode/carpentryApp/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
