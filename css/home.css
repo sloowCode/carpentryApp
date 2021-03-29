@@ -1,36 +1,67 @@
-.navs{
-	background-color:rgb(255, 255, 255);
-	min-height:120px;
-	max-height: fit-content;
-    
-}
 
 
- .navbar-brand { 
-	 position: relative; z-index: 2;
-	 /* display: inline-block; */
-   
-} 
- 
 
-.navbar-brand > img {
-	margin-top:-1rem;	
-	margin-left:9rem;
-}
-.navbar-inner{
-	max-height:fit-content;
-}
-.nav.navbar-nav>li>a{
-	color:navy;
-	margin-top: 3rem;
-	font-weight: 800;
-	position: relative; z-index: 2;
-	
-}
 .nav.navbar-nav>li>a:hover {
 	color:gold;
 	background-color:navy;
+} 
+.nav.navbar-nav>li>a {
+	
+	color:navy;
+} 
+ .navbar-header.icon-bar {
+    
+	color: orange;
 }
+.navbar-brand { position: relative; z-index: 2; height:100px ; }
+
+.navbar-brand img{
+	margin-top: -2rem;
+	padding: 1rem;
+}
+.navbar-right{
+	padding-top: 2rem;
+}
+
+
+.navbar .navbar-collapse { position: relative; overflow: hidden !important; }
+
+.navbar .nav-collapse { position: absolute; z-index: 1; top: 0; left: 0; right: 0; bottom: 0; margin: 0; padding-right: 120px; padding-left: 80px; width: 100%;  }
+.navbar.navbar-default .nav-collapse { background-color: #ffffff; }
+
+.nav-collapse>li { float: right; }
+
+
+
+
+@media screen and (max-width: 767px) {
+    /* .navbar .navbar-collapse .navbar-right > li:last-child { padding-left: 15px; padding-right: 15px; }  */
+    
+    .navbar .nav-collapse { margin: 7.5px auto; padding: 0;  }
+    .navbar .nav-collapse .navbar-form { margin: 0; }
+    .nav-collapse>li { float: none; }
+   
+    .navbar.navbar-default .nav-collapse,
+    .navbar.navbar-inverse .nav-collapse {
+        transform: translate(-100%,0px);
+    }
+    .navbar.navbar-default .nav-collapse.in,
+    .navbar.navbar-inverse .nav-collapse.in {
+        transform: translate(0px,0px);
+    }
+    
+    .navbar.navbar-default .nav-collapse.slide-down,
+    .navbar.navbar-inverse .nav-collapse.slide-down {
+        transform: translate(0px,-100%);
+    }
+    .navbar.navbar-default .nav-collapse.in.slide-down,
+    .navbar.navbar-inverse .nav-collapse.in.slide-down {
+        transform: translate(0px,0px);
+    } 
+}
+
+
+
 .carousel{
 	margin-top:-2rem;
 }
@@ -93,8 +124,10 @@
 	margin-top: -1rem;
 }
 .callus .card-header{
-	background-image: url(/img/carp.png);
+	background-image: url(/img/matt0.jpg);
 	background-size: cover;
+	background-position: center; 
+	background-repeat: no-repeat;
 	height: 250px;
 	
 }
@@ -189,7 +222,8 @@
 	margin-top: 8rem;
 	background-repeat:no-repeat;
 	background-size:cover; 
-	background-image: url(/img/edited.png);
+	background-position: top;
+	background-image: url(/img/carp4.jpg);
 }
 .services .services-content{
 	margin-bottom: 10.0rem;
@@ -408,9 +442,10 @@
     background-color: rgb(209, 193, 151);
 	text-align: center;
 	width: 100%;
-	background-image: url(/img/lolo.png);
+	background-image: url(/img/carp3.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 	margin-top: 5rem;
 }
 .employees,.customer,.design,.order
@@ -858,6 +893,6 @@ section {
 .footer{
 	background-color:orange;
 	color: white;
-	margin-top: 2rem;
+	 margin-top: 2rem; 
 	padding: 1.5rem;
 }
